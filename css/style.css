@@ -1,0 +1,212 @@
+:root{
+    --main-color:#0D28A6;
+    --second-color:#F1F3FF;
+    --body-color:#FFFFFF;
+    --txt-color:#000000;
+    --btn-color:#5CB85F;
+
+    --main-font:'Helvetica';
+    
+    --size-navigation:'14px';
+    --size-banner: '36px';
+    --size-title: '24px';
+    --size-subtitle: '16px';
+    --size-description: '14px';
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--main-font);
+    scroll-behavior: smooth;
+}
+
+/* Ini page Navbar */
+#navigation{
+    width: 1168px;
+    height: 36px;
+    color: var(--txt-color);
+}
+
+#navigation #logo{
+    width: 100px;
+    height: 34px;
+    background-color: var(--main-color);
+}
+
+#navigation form button{
+    background-color: var(--btn-color);
+    color: #FFFFFF;
+    border: none;
+}
+
+#navigation .navbar-collapse{
+    margin-left: 800px;
+}
+
+#navigation .navbar-collapse form button{
+    margin-left: 50px;
+}
+
+
+/* Ini Page Banner */
+#banner{
+    padding-top: 46px;
+    padding-left: 100px;
+    /* height: 449px; */
+    height: 500;
+    background-color:var(--second-color);
+}
+
+#banner img{
+    width: 100%;
+}
+
+#banner .banner-content-left{
+    margin-top: 100px;
+}
+
+#banner .banner-content-left button{
+    background-color: var(--btn-color);
+    border: none;
+}
+/* ini page our service */
+#our-service{
+    margin-top: 100px;
+    height: 504px;
+}
+
+#our-service .row{
+    margin-top: 50px;
+}
+
+#our-service .row h2{
+    margin-top: 50px;
+}
+
+#our-service .row p, #our-service .row ul{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+#our-service .row ul li{
+    margin-top: 10px;
+}
+
+#our-service img{
+    margin-right: 10px;
+}
+
+
+/* ini page why-us */
+#why-us{
+    margin-top: 100px;
+    height: 350px;
+    /* background-color:rgb(114, 114, 114); */
+    margin-bottom: 50px;
+}
+
+#why-us .row .card .icn-card{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 50px;
+}
+
+/*testiomonial*/
+#testimonial{
+    margin-top: 100px;
+    height: 350px;
+}
+
+#testimonial .testimonial-title{
+    text-align: center;
+}
+
+#testimonial .card{
+    background-color: var(--second-color);
+    text-align: left;
+}
+
+#testimonial .person{
+    width: 75px;
+    margin-left: 20px;
+    margin-top: 70px;
+}
+
+#testimonial .rate{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+/*sewa  */
+#sewa {
+    margin-top: 100px;
+    height: 350px;
+}
+#sewa .container{
+    width: 1000px;
+}
+
+#sewa .container .card{
+    padding: 60px;
+    background-color: var(--main-color);
+    color: #FFFFFF;
+}
+
+#sewa .container .card p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:#cfcfcf;  
+}
+
+#sewa .container .card .btn{
+    background-color: var(--btn-color);
+    border: none;
+}
+
+
+/*faq   */
+#faq{
+    margin-top: 100px;
+    height: 500px;
+}
+
+#faq .accordion-item{
+    margin-top: 20px;
+    border: 1px solid ;
+    border-color: #acacac;
+}
+
+/* footer */
+#footer{
+    margin-top: 100px;
+    /* background-color: #5CB85F; */
+    height: 200px;
+}
+
+#footer .row{
+
+}
+
+#footer img{
+    margin-left: 5px;
+}
+
+#footer .baris-2{
+    padding-top: 20px;
+}
+
+
+#footer .row .col-2 a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#footer #logo{
+    width: 100px;
+    height: 34px;
+    background-color: var(--main-color);
+}
